@@ -14,3 +14,5 @@ export interface CreateProductPayload {
   category: string;
   stock_quantity?: number;
 }
+
+export type UpdateProductPayload = Partial<CreateProductPayload>;
